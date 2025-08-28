@@ -38,10 +38,10 @@ char plain[100], cipher[100];
 int key, i, length; 
 printf("Enter the plain text: "); 
 scanf("%s", plain);  
-printf("Enter the key value: "); 
+printf("Enter the key value:\n "); 
 scanf("%d", &key);  
-printf("\nPLAIN TEXT: %s", plain); 
-printf("\nENCRYPTED TEXT: "); 
+printf("PLAIN TEXT: %s", plain); 
+printf("ENCRYPTED TEXT: "); 
 length = strlen(plain); 
 for (i = 0; i < length; i++) { 
 cipher[i] = plain[i] + key; 
@@ -73,6 +73,8 @@ return 0;
 
 
 OUTPUT :-
+
+
 <img width="581" height="368" alt="Screenshot 2025-08-28 134403" src="https://github.com/user-attachments/assets/a083fffe-6813-449f-bac0-34e0773a4b22" />
 
 
